@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "pdf": {
+      "type": "stdio",
+      "command": "./.venv/bin/python",
+      "args": ["main.py", "-d", "data"],
+      "env": {}
+    }
+  }
+}
